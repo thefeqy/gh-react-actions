@@ -1,5 +1,6 @@
 name: Test Units in react
 on:
+  workflow_dispatch: # This is for manual trigger
   push:
     branches:
       - main
